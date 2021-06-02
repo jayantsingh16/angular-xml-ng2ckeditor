@@ -13,7 +13,7 @@ export class Xml0Component implements OnInit {
   @ViewChild("myckeditor") ckeditor: any;
 
   constructor() {
-    this.mycontent = `<p>My html content</p>`;
+    this.mycontent = "<p>My html content</p>";
   }
 
   ngOnInit() {
